@@ -1,0 +1,38 @@
+.footer {
+
+    width: 100%;
+    padding: 6rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.line {
+    margin-bottom: 2rem;
+}
+
+.location {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.phone {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.email {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.soc:hover {
+    cursor: pointer;
+    background-color:  #8685ef;
+}
