@@ -16,25 +16,6 @@ import unitylogo from "../assets/logos/unity.png"
 
 const SkillCardData = [
     //#region SkillLine-1
-    {
-        skilllogo: javascriptlogo,
-        skillname: "JavaScript"
-    },
-    {
-        skilllogo: reactlogo,
-        skillname: "React"
-    },
-    {
-        skilllogo: csharplogo,
-        skillname: "C#"
-    },
-    {
-        skilllogo: gitlogo,
-        skillname: "Git"
-    },
-    //#endregion
-    //#region SkillLine-2
-
 
     {
         skilllogo: htmllogo,
@@ -45,12 +26,31 @@ const SkillCardData = [
         skillname: "CSS3"
     },
     {
-        skilllogo: figmalogo,
-        skillname: "Figma"
+        skilllogo: javascriptlogo,
+        skillname: "JavaScript"
     },
     {
-        skilllogo: photoshoplogo,
-        skillname: "Adobe Photoshop"
+        skilllogo: reactlogo,
+        skillname: "React"
+    },
+    
+    //#endregion
+    //#region SkillLine-2
+    {
+        skilllogo: csharplogo,
+        skillname: "C#"
+    },
+    {
+        skilllogo: gitlogo,
+        skillname: "Git"
+    },
+    {
+        skilllogo: githublogo,
+        skillname: "GitHub"
+    },
+    {
+        skilllogo: plasticlogo,
+        skillname: "PlastiCSCM"
     },
 
     //#endregion
@@ -64,6 +64,20 @@ const SkillCardData = [
         skillname: "MySQL"
     },
     {
+        skilllogo: figmalogo,
+        skillname: "Figma"
+    },
+    
+    {
+        skilllogo: photoshoplogo,
+        skillname: "Adobe Photoshop"
+    },
+   
+    //#endregion
+    //#region SkillLine-4
+    
+   
+    {
         skilllogo: unitylogo,
         skillname: "Unity"
     },
@@ -71,16 +85,7 @@ const SkillCardData = [
         skilllogo: blenderlogo,
         skillname: "Blender"
     },
-    //#endregion
-    //#region SkillLine-4
-    {
-        skilllogo: githublogo,
-        skillname: "GitHub"
-    },
-    {
-        skilllogo: plasticlogo,
-        skillname: "PlastiCSCM"
-    }
+   
     //#endregion 
 ];
 
