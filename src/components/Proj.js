@@ -6,7 +6,7 @@ import React from 'react'
 const Proj = () => {
     return (
         <div className="container">
-            <h1 className="card-heading">React Development</h1>
+            <h1 className="card-heading">Web Development</h1>
             <div className="card-container">
                 {ProjCardData.map((value, index) => {
                     return (

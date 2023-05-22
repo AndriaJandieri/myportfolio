@@ -1,13 +1,14 @@
 import "./Footer.css";
 
 import React from 'react'
-import { FaFacebook, FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone } from "react-icons/fa";
+import { FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone } from "react-icons/fa";
 
 const Footer = () => {
 
-    const handleClickFB = () => {
+   /* const handleClickFB = () => {
         window.open("https://www.facebook.com/ragindara/");
     };
+    */
     const handleClickGIT = () => {
         window.open("https://github.com/AndriaJandieri");
     };
@@ -49,9 +50,9 @@ const Footer = () => {
                 </div>
                 <hr className="line"></hr>
                 <div className="social">
-                    <FaFacebook className="soc" onClick={handleClickFB} size={40} style={{ color: "#faf7ff", marginRight: "3rem" }} />
-                    <FaGithub className="soc" onClick={handleClickGIT} size={40} style={{ color: "#faf7ff", marginRight: "3rem" }} />
+                    
                     <FaLinkedin className="soc" onClick={handleClickLNK} size={40} style={{ color: "#faf7ff", marginRight: "3rem" }} />                    
+                    <FaGithub className="soc" onClick={handleClickGIT} size={40} style={{ color: "#faf7ff", marginRight: "3rem" }} />
                 </div>
             </div>
         </div>

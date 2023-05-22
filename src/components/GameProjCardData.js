@@ -1,3 +1,7 @@
+import sniperhunter from "../assets/GameImageIcons/Sniperhunter.png"
+import golfclub from "../assets/GameImageIcons/GolfClub.png"
+import shootingclub from "../assets/GameImageIcons/ShootingClub.png"
+import robotpoliceman from "../assets/GameImageIcons/RobotPoliceman.png"
 import bbalimg from "../assets/GameImageIcons/B-Ball.png";
 import ashbringouimg from "../assets/GameImageIcons/Ashbringou.png";
 import tunnelgoimg from "../assets/GameImageIcons/TunnelGo.png";
@@ -7,7 +11,43 @@ import towerdefenceimg from "../assets/GameImageIcons/TowerDefence.png";
 import duckimg from "../assets/GameImageIcons/Duck.png";
 
 
-const GameProjCardData = [
+const GameProjCardData = [    
+    {
+        imgsrc: golfclub,
+        title: "Golf Club",
+        text: "Player is a Golf club manager and provide service to visitors with opening shooting lanes and collecting balls on field",
+        // viewlink: "https://play.google.com/store/apps/details?id=com.HappyLobster.BBall&hl=en",
+
+        videolink: "https://youtu.be/YOMkaCGl6zM"
+
+    },
+    {
+        imgsrc: shootingclub,
+        title: "Shooting Club",
+        text: "Player is a Shooting club manager and provide service to visitors with opening shooting lanes and weapons",
+        // viewlink: "https://play.google.com/store/apps/details?id=com.HappyLobster.BBall&hl=en",
+
+        videolink: "https://youtu.be/uMNGgrdx98Y"
+
+    },
+    {
+        imgsrc: robotpoliceman,
+        title: "Robot PoliceMan",
+        text: "FPS game, where player is robot policeman and killing bandits by using different kind of rifles",
+        // viewlink: "https://play.google.com/store/apps/details?id=com.HappyLobster.BBall&hl=en",
+
+        videolink: "https://youtu.be/_Qw3xkbUL40"
+
+    },
+    {
+        imgsrc: sniperhunter,
+        title: "Sniper Hunter Simulator",
+        text: "Sniper hunter, kills wild animals which maybe be get angry and attack player back",
+        // viewlink: "https://play.google.com/store/apps/details?id=com.HappyLobster.BBall&hl=en",
+
+        videolink: "https://youtube.com/shorts/G1ORRlIqqK0?feature=share"
+
+    },
     {
         imgsrc: bbalimg,
         title: "B-Ball",

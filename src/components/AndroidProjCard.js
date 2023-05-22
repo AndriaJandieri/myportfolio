@@ -1,11 +1,11 @@
-import "./GameProjCard.css";
+import "./AndroidProjCard.css";
 import React from 'react'
 import { FaGooglePlay } from "react-icons/fa";
 
-const GameProjCard = (props) => {
+const AndroidProjCard = (props) => {
     return (
-        < div className="g-project-card" >
-            <h2 className="g-project-title">{props.title}</h2>
+        < div className="a-project-card" >
+            <h2 className="a-project-title">{props.title}</h2>
             <a href={props.videolink}
                 target="_blank"
                 rel="noopener noreferrer">
@@ -13,18 +13,18 @@ const GameProjCard = (props) => {
                 <img src={props.imgsrc} alt="" />
             </a>
 
-            <div className="g-project-details">
+            <div className="a-project-details">
                 <p>{props.text}</p>
 
-                <div className="g-card-btns">
+                <div className="a-card-btns">
                     {props.viewlink && <a
                         href={props.viewlink}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn">
-                        <FaGooglePlay className="g-play-icon"
+                        <FaGooglePlay className="a-play-icon"
                             size={30} style={{ color: "#faf7ff", marginRight: "3rem" }} />
-                        Visit Game Link
+                        Visit Application Link
                     </a>}
                 </div>
             </div>
@@ -32,4 +32,4 @@ const GameProjCard = (props) => {
     )
 }
 
-export default GameProjCard
+export default AndroidProjCard

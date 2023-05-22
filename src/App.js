@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import ReactGa from "react-ga";
 import "./index.css";
 
 import { Route, Routes } from "react-router-dom";
@@ -8,6 +9,12 @@ import Projects from "./routes/Projects"
 import Contact from "./routes/Contact"
 
 function App() {
+
+  useEffect(() => {
+    ReactGa.initialize('UA-243892031-1')
+    ReactGa.pageview('/')
+  }, [])
+
   return (
     <>
       <Routes>
